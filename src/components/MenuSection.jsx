@@ -75,10 +75,14 @@ export default function MenuSection() {
         </div>
 
         <div className="mt-14 flex justify-center">
-          <button className="btn-dark-outline flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium">
+          <a
+            href="/Soul_Cafe_Menu(1).pdf"
+            download
+            className="btn-dark-outline flex items-center gap-2 rounded-full px-7 py-3.5 text-sm font-medium hover:bg-espresso/10 transition-colors"
+          >
             <Download className="w-4 h-4" />
             Download Full PDF Menu
-          </button>
+          </a>
         </div>
       </div>
     </section>
