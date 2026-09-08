@@ -5,6 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Soul Cafe — Ashok Vihar, Delhi</title>
     <meta name="description" content="Artisanal coffee, panouzzos and a cozy dining spot in Ashok Vihar Phase 2, Delhi." />
+    
+    <!-- OpenGraph Tags for Social Sharing Previews -->
+    <meta property="og:title" content="Soul Cafe — Ashok Vihar, Delhi" />
+    <meta property="og:description" content="Artisanal coffee, panouzzos and a cozy dining spot in Ashok Vihar Phase 2, Delhi." />
+    <meta property="og:type" content="website" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -14,6 +20,37 @@
   </head>
   <body>
     <div id="root"></div>
+
+    <!-- Links Reference / Fallback Container -->
+    <div id="order-links" style="display: none;">
+      <!-- Swiggy Direct Link -->
+      <a 
+        href="https://www.swiggy.com/city/delhi/soul-cafe-ashok-vihar-rest957179" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Order on Swiggy
+      </a>
+
+      <!-- Zomato Direct Link -->
+      <a 
+        href="https://www.zomato.com/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Order on Zomato
+      </a>
+
+      <!-- District Direct Booking Link -->
+      <a 
+        href="https://www.district.in/dining/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi" 
+        target="_blank" 
+        rel="noopener noreferrer"
+      >
+        Book Table on District
+      </a>
+    </div>
+
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
