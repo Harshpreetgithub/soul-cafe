@@ -44,7 +44,7 @@ export default function Navbar() {
           </button>
 
           {isOpen && (
-            <div className="absolute right-0 mt-2 w-48 bg-espresso-dark border border-white/10 rounded-lg shadow-lg overflow-hidden">
+            <div className="absolute right-0 mt-0 w-48 bg-espresso-dark border border-white/10 rounded-lg shadow-lg overflow-hidden">
               {orderingPlatforms.map((platform) => (
                 <a
                   key={platform.name}
