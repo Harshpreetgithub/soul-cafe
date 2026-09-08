@@ -7,7 +7,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-6xl px-6 sm:px-10 lg:px-16 py-4 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 text-cream">
           <img 
-            src="/logo.jpg" 
+            src="/logo.png" 
             alt="Soul Cafe Logo" 
             className="h-8 w-8 object-contain"
           />
