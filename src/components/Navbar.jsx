@@ -31,9 +31,12 @@ export default function Navbar() {
           <a href="#location" className="nav-link">Contact</a>
         </nav>
 
-        <div className="relative">
+        <div 
+          className="relative"
+          onMouseEnter={() => setIsOpen(true)}
+          onMouseLeave={() => setIsOpen(false)}
+        >
           <button
-            onClick={() => setIsOpen(!isOpen)}
             className="btn-primary rounded-full px-5 py-2.5 text-sm font-medium flex items-center gap-2"
           >
             Order Online
