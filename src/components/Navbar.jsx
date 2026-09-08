@@ -1,5 +1,4 @@
 import React from "react";
-import { Coffee } from "lucide-react";
 import { CAFE_INFO } from "../data/menu.js";
 
 export default function Navbar() {
@@ -7,7 +6,11 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-espresso-dark/90 backdrop-blur-md border-b border-white/5">
       <div className="mx-auto max-w-6xl px-6 sm:px-10 lg:px-16 py-4 flex items-center justify-between">
         <a href="#top" className="flex items-center gap-2 text-cream">
-          <Coffee className="w-5 h-5 text-amber" />
+          <img 
+            src="/logo.jpg" 
+            alt="Soul Cafe Logo" 
+            className="h-8 w-8 object-contain"
+          />
           <span className="font-serif text-lg font-semibold">Soul Cafe</span>
         </a>
 
