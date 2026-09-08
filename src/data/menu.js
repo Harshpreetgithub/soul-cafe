@@ -95,4 +95,6 @@ export const CAFE_INFO = {
   mapsUrl:
     "https://www.google.com/maps/place/Soul+Cafe/@28.6950954,77.1766445,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03895ba48ec5:0x68b1d738e3960fbf!8m2!3d28.6950907!4d77.1792194",
   swiggyUrl: "https://www.swiggy.com/city/delhi/soul-cafe-ashok-vihar-rest957179",
+  zomatoUrl: "https://www.zomato.com/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi/book",
+  districtUrl: "https://www.district.in/dining/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi/book?dineIn-st=%7Bavailability_slot_start_seconds%7D&ctx_covers=%7Bresources_party_size%7D&rwg_token=AE37R_gwGpjvORHC-juNYgvGyPTdupOkv9zPXEaLPo8bW2SpnNIBTLb48-A9PazAQIJODVmZ3fDJkFs-FrsHPkRBI7noHaEiXzXk0FznWLV8_OTf-l30A50%3D",
 };
