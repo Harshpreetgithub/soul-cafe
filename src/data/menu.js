@@ -11,6 +11,7 @@ export const MENU_ITEMS = {
       desc: "Artisanal espresso with steamed milk foam",
       price: 195,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1541167760496-1628856ab772?q=80&w=800&auto=format&fit=crop",
     },
     {
@@ -25,6 +26,7 @@ export const MENU_ITEMS = {
       desc: "Slow-steeped 18 hours, served over ice",
       price: 225,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1461023058943-07fcbe16d735?q=80&w=800&auto=format&fit=crop",
     },
   ],
@@ -34,6 +36,7 @@ export const MENU_ITEMS = {
       desc: "Wild mushrooms, wilted spinach, bocconcini",
       price: 395,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1550507992-eb63ffee0847?q=80&w=800&auto=format&fit=crop",
     },
     {
@@ -49,6 +52,7 @@ export const MENU_ITEMS = {
       desc: "Charred paneer, roasted pepper aioli, sourdough",
       price: 345,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop",
     },
   ],
@@ -58,6 +62,7 @@ export const MENU_ITEMS = {
       desc: "Fresh berries, yogurt, organic honey",
       price: 275,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1553530666-ba11a7da3888?q=80&w=800&auto=format&fit=crop",
     },
     {
@@ -72,6 +77,7 @@ export const MENU_ITEMS = {
       desc: "Alphonso mango, basil seeds, coconut milk",
       price: 265,
       veg: true,
+      bestseller: true,
       img: "https://images.unsplash.com/photo-1502741338009-cac2772e18bc?q=80&w=800&auto=format&fit=crop",
     },
   ],
@@ -96,6 +102,6 @@ export const CAFE_INFO = {
     "https://www.google.com/maps/place/Soul+Cafe/@28.6950954,77.1766445,17z/data=!3m1!4b1!4m6!3m5!1s0x390d03895ba48ec5:0x68b1d738e3960fbf!8m2!3d28.6950907!4d77.1792194",
   swiggyUrl: "https://www.swiggy.com/city/delhi/soul-cafe-ashok-vihar-rest957179",
   zomatoUrl: "https://www.zomato.com/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi/book",
-  districtUrl: "https://www.district.in/dining/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi/book?dineIn-st=%7Bavailability_slot_start_seconds%7D&ctx_covers=%7Bresources_party_size%7D&rwg_token=AE37R_gwGpjvORHC-juNYgvGyPTdupOkv9zPXEaLPo8bW2SpnNIBTLb48-A9PazAQIJODVmZ3fDJkFs-FrsHPkRBI7noHaEiXzXk0FznWLV8_OTf-l30A50%3D",
+  districtUrl: "https://www.district.in/dining/ncr/soul-cafe-ashok-vihar-phase-2-new-delhi/book?dineIn-st=%7Bavailability_slot_start_seconds%7D&ctx_covers=%7Bresources_party_size%7D&rwg_token=AE37",
   magicpinUrl: "https://magicpin.in/New-Delhi/Ashok-Vihar/Restaurant/Soul-Cafe/store/1669125/menu",
 };
