@@ -9,7 +9,7 @@ export default function Navbar() {
           <img 
             src="/logo.png" 
             alt="Soul Cafe Logo" 
-            className="h-8 w-8 object-contain"
+            className="h-12 w-12 object-contain"
           />
           <span className="font-serif text-lg font-semibold">Soul Cafe</span>
         </a>
